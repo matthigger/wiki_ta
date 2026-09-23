@@ -8,6 +8,7 @@ theme:
   features:
     - content.action.edit
     - navigation.sections
+    - navigation.tabs
     - navigation.top
     - search.highlight
     - search.suggest
@@ -33,4 +34,9 @@ markdown_extensions:
 
 nav:
   - Home: index.md
+  - Instructions:
+      - Proctoring: instructions/proctoring.md
+      - Scanning quizzes/exams: instructions/scanning.md
+      - Study groups: instructions/study_groups.md
+      - Grading: instructions/grading.md
   - Editing this wiki: editing.md
