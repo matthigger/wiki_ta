@@ -1,7 +1,7 @@
 # Editing this wiki
 
 Every page is a Markdown file in the `docs/` folder of the
-[wiki_teach](https://github.com/matthigger/wiki_teach) repo. The site
+[wiki_ta](https://github.com/matthigger/wiki_ta) repo. The site
 rebuilds automatically a minute or two after each change to `main`.
 
 ## Edit a page in the browser

@@ -1,6 +1,6 @@
 site_name: Teaching Wiki
 site_description: Instructions for course TAs
-repo_url: https://github.com/matthigger/wiki_teach
+repo_url: https://github.com/matthigger/wiki_ta
 edit_uri: edit/main/docs/
 
 theme:
