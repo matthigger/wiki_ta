@@ -6,7 +6,6 @@ theme:
   name: material
   features:
     - navigation.sections
-    - navigation.tabs
     - navigation.top
     - search.highlight
     - search.suggest
@@ -35,5 +34,5 @@ nav:
   - Instructions:
       - Proctoring: instructions/proctoring.md
       - Scanning quizzes/exams: instructions/scanning.md
-      - Study groups: instructions/study_groups.md
+      - Teaching: instructions/study_groups.md
       - Grading: instructions/grading.md
