@@ -14,6 +14,7 @@ Please forgive how specific these steps are; each one comes from chasing missing
 4. Give each PDF a short name and write that name on its paper stack.
    A simple code works: a number for the question and a letter for the stack.
    For example, `2c.pdf` is the third stack of 10 for question 2.
+5. Return the paper copies, still in their labeled stacks, to the instructor, who will keep them for the rest of the semester.
 
 ## 2. Create the assignment on Gradescope
 
