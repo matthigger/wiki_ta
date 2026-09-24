@@ -1,4 +1,4 @@
-# Teaching Wiki
+# TA Wiki
 
 Instructions for course TAs. Use the sidebar or the search bar (press `/`)
 to find a page.
