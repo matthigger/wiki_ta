@@ -2,27 +2,32 @@
 
 After a quiz or exam, we scan the paper copies, upload them to Gradescope, and keep the paper.
 Students sometimes say we lost their work, so each step below makes sure any page on Gradescope can be traced back to its paper copy.
-Please forgive my sepcificity below, it has been motivated by chasing missing submissions in past semesters.
+Please forgive how specific these steps are; each one comes from chasing missing submissions in past semesters.
 
 ## 1. Scan the paper copies
 
-1. Use scissors to cut off the stapled corner of each exam, so the pages come apart.
-2. Check that every page with a problem on it has the student's name (students may only label the first one, re-label it if need be here)
-3. Scan each question in stacks of `n=10` (double sided), saving to a USB drive.
-   Notice that a student's first page/question is sent to a different PDF than their second page/question.
-4. Rename each PDF to something short and write that name on its paper stack.
-   A simple code works, like using a number for the page/question index and letter for the stack: `2c.pdf` is the second question's third stack of `n=10` submissions.
+1. Cut off the stapled corner of each exam with scissors so the pages come apart.
+2. Check that every page with a problem on it has the student's name.
+   Students often write it only on the first page, so add it wherever it's missing.
+3. Scan each question separately, in stacks of 10 (double sided), saving to a USB drive.
+   A student's first question ends up in a different PDF than their second question.
+4. Give each PDF a short name and write that name on its paper stack.
+   A simple code works: a number for the question and a letter for the stack.
+   For example, `2c.pdf` is the third stack of 10 for question 2.
 
 ## 2. Create the assignment on Gradescope
 
 1. Go to **Assignments > Create Assignment** and choose the type:
     - **Exam / Quiz**: use this for quizzes and exams.
       Every student's answer to a question is in the same spot on the same page.
-    - **Homework / Problem Set**: Students put their work wherever they like, not typical of exams.
-    NOTE: for DS4400sp26 each question should get its own gradescope assignment.
-    So a quiz with two questions creates two distinct gradescope assignments.
-    (This will allow for our backend to easily swap in a student's maximum score, should they choose to re-take a question)
-2. Upload the blank student copy of the quiz/exam as the template.
+    - **Homework / Problem Set**: students put their work wherever they like.
+      This isn't typical for exams.
+
+    !!! note "DS4400"
+        Each question gets its own Gradescope assignment, so a quiz with two questions becomes two Gradescope assignments.
+        This lets our backend easily swap in a student's best score if they retake a question.
+
+2. Upload the blank student copy of the quiz/exam (or of just that question, if each question is its own assignment) as the template.
    Gradescope uses it to find each answer on every student's scan.
    It must have the same number of pages as one student's scan (if scans are double sided, count both sides).
 3. Name the assignment exactly as the title on the quiz/exam, and set its date to the date printed on it.
@@ -36,7 +41,7 @@ Please forgive my sepcificity below, it has been motivated by chasing missing su
     - Draw a box on the template around where the answer goes.
       Keep the box as small as possible while still covering all of the student's work; Gradescope's AI-assisted grading groups similar answers, and it works best with tight boxes.
     - For extra credit questions, remove the point limit (ceiling).
-6.  Click **Save Outline**.
+6. Click **Save Outline**.
 
 ## 3. Upload the scans to Gradescope
 
@@ -48,11 +53,9 @@ Please forgive my sepcificity below, it has been motivated by chasing missing su
       Zoom in with the magnifying glass, then reorder, split, or merge pages until each submission is one complete exam.
       Then click **Create Submissions**.
     - Only delete a page if it is blank or scanned twice.
-    - Warning: sometimes the scanner will pull two pages at once, effectively discarding a page.
-      This is why we scan in batches of 10, so that we can expect/validate that all 10 made it.
+    - Watch for pages the scanner pulled through two at a time, which skips a page.
+      Scanning in batches of 10 means you know every PDF should hold exactly 10 submissions, so a missing page shows up.
 4. Gradescope tries to match each submission to a student using the name and ID boxes.
-   Go to **Manage Submissions** and:
-    - Open the **Unassigned** tab.
-      For each submission there, type the student's name or ID and press Tab to assign it.
+   Go to **Manage Submissions**, open the **Unassigned** tab, and for each submission there, type the student's name or ID and press Tab to assign it.
 5. Before you finish, confirm that every submission is assigned to a student, and that the number of submissions equals the number of paper exams.
-   If a count is off, the labelling and counting in stacks of 10 should help you find and scan any missing exams.
+   If a count is off, the stack labels and the counts of 10 will help you find and scan the missing exams.
