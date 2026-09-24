@@ -33,6 +33,10 @@ Please forgive how specific these steps are; each one comes from chasing missing
    It must have the same number of pages as one student's scan (if scans are double sided, count both sides).
 3. Name the assignment exactly as the title on the quiz/exam, and set its date to the date printed on it.
    Leave the other grading settings at their defaults.
+
+    !!! note "DS4400"
+        Instead of using the given title, we'll deviate a bit (again, for our backend to swap in best scores).  Name the questions using the exact title of the quiz, `fresh` or `familiar` and a word or two about the problem.  Quiz 1 has two versions and two questions, they might be named as: `quiz1a_familiar_bayes_dog`, `quiz1a_fresh_perceptron`, `quiz1b_familiar_bayes_dog`, `quiz1b_fresh_perceptron`.
+
 4. On the template, mark the box where students write their name, and the ID box (if there is one).
 5. Build the outline, adding each question with the **New Question** button.
    Split questions into their smallest parts: graders would rather grade 6.i on its own than all of question 6 at once.
